@@ -3,7 +3,7 @@
 
 vi /etc/hosts.deny
 ````
-sudo wget https://raw.githubusercontent.com/aiastia/banip/master/hosts.deny -O hosts.deny 
+sudo wget https://raw.githubusercontent.com/aiastia/banip/ip/hosts.deny -O hosts.deny 
 ````
 
 ````
