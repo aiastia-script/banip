@@ -21,6 +21,9 @@ sudo wget https://raw.githubusercontent.com/aiastia/banip/master/hosts.allow -O 
 ````
 sudo cp --no-preserve=mode,ownership ./hosts.allow /etc/hosts.allow
 ````
+````
+echo ALL:ALL  > /etc/hosts.deny
+````
 
 ~~cat hosts.deny >> /etc/hosts.deny~~
 
