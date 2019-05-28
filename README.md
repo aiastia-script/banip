@@ -6,12 +6,20 @@ vi /etc/hosts.deny
 sudo wget https://raw.githubusercontent.com/aiastia/banip/master/hosts.deny -O hosts.deny 
 ````
 
-````
-sudo wget https://raw.githubusercontent.com/aiastia/banip/master/hosts.allow -O hosts.allow 
-````
+
 
 ````
 sudo cp --no-preserve=mode,ownership ./hosts.deny /etc/hosts.deny
+````
+
+
+允许的ip
+
+````
+sudo wget https://raw.githubusercontent.com/aiastia/banip/master/hosts.allow -O hosts.allow 
+````
+````
+sudo cp --no-preserve=mode,ownership ./hosts.allow /etc/hosts.allow
 ````
 
 ~~cat hosts.deny >> /etc/hosts.deny~~
