@@ -10,3 +10,8 @@ sudo fail2ban-client status
 
 
 sudo fail2ban-client status sshd
+
+sudo systemctl start fail2ban
+
+
+sudo systemctl enable fail2ban
