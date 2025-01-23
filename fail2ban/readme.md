@@ -1,8 +1,7 @@
 ```
-wget -O /etc/fail2ban/filter.d/blacklist.conf https://raw.githubusercontent.com/aiastia-script/banip/refs/heads/master/fail2ban/blacklist.conf
-wget -O /etc/fail2ban/blacklist.conf https://raw.githubusercontent.com/aiastia-script/banip/refs/heads/master/fail2ban/blacklist.conf
-wget -O /etc/fail2ban/ip.blacklist https://raw.githubusercontent.com/aiastia-script/banip/refs/heads/master/fail2ban/ip.blacklist
-wget -O /etc/fail2ban/jail.local https://raw.githubusercontent.com/aiastia-script/banip/refs/heads/master/fail2ban/jail.local
+sudo wget -O /etc/fail2ban/filter.d/blacklist.conf https://raw.githubusercontent.com/aiastia-script/banip/refs/heads/master/fail2ban/blacklist.conf
+sudo wget -O /etc/fail2ban/ip.blacklist https://raw.githubusercontent.com/aiastia-script/banip/refs/heads/master/fail2ban/ip.blacklist
+sudo wget -O /etc/fail2ban/jail.local https://raw.githubusercontent.com/aiastia-script/banip/refs/heads/master/fail2ban/jail.local
 ```
 sudo systemctl restart fail2ban
 
