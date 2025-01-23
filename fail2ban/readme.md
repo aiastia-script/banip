@@ -4,4 +4,9 @@ wget -O /etc/fail2ban/ip.blacklist https://raw.githubusercontent.com/aiastia-scr
 wget -O /etc/fail2ban/jail.local https://raw.githubusercontent.com/aiastia-script/banip/refs/heads/master/fail2ban/jail.local
 ```
 sudo systemctl restart fail2ban
+
+
 sudo fail2ban-client status
+
+
+sudo fail2ban-client status sshd
