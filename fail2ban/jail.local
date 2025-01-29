@@ -20,7 +20,7 @@ ignoreip = 127.0.0.1/8 ::1 \
 
 [sshd]
 enabled = true
-port = ssh,22345
+port = ssh,22345,723
 logpath = /var/log/auth.log
 
 [blacklist]
