@@ -19,12 +19,14 @@ ignoreip = 127.0.0.1/8 \
            47.239.106.0/24
 
 [sshd]
-enabled = true
-port = ssh,22345,723
-logpath = /var/log/auth.log
+enabled     = true
+port        = ssh,22345,723
+banaction   = iptables-multiport        
+logpath     = /var/log/auth.log
 
 [blacklist]
-enabled = true
-filter = blacklist
-action = iptables-allports[name=Blacklist, chain=INPUT]
-logpath = /etc/fail2ban/ip.blacklist
+enabled     = true
+filter      = blacklist
+banaction   = iptables-allports        
+port        = any
+logpath     = /etc/fail2ban/ip.blacklist
