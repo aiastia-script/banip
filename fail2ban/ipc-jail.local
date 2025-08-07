@@ -20,7 +20,6 @@ ignoreip = 127.0.0.1/8 \
 
 
 [sshd]
-ignoreip = 127.0.0.1/8               # 白名单
 enabled = true
 filter = sshd
 port        = ssh,22345,723
