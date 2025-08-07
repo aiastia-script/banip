@@ -27,7 +27,7 @@ logpath     = /var/log/auth.log
 [blacklist]
 enabled     = true
 filter      = blacklist
-banaction   = iptables-ipset-proto6-allports
+banaction   = custom-ipset
 port        = any
 logpath     = /etc/fail2ban/ip.blacklist
 maxretry    = 1
