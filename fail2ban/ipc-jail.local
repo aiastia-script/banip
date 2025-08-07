@@ -28,7 +28,6 @@ logpath     = /var/log/auth.log
 enabled     = true
 filter      = blacklist
 banaction   = custom-ipset
-allowipv6   = auto 
 port        = any
 logpath     = /etc/fail2ban/ip.blacklist
 maxretry    = 1
